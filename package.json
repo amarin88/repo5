@@ -1,0 +1,22 @@
+{
+  "name": "preentrega_2",
+  "version": "1.0.0",
+  "description": "Dicho trabajo fue realizado intentando cumplir con las rúbricas de la segunda preentrega del proyecto final de un e-commerce, del curso de backend para la plataforma Coderhouse, en la comisión 53155 a cargo del profesor Luis Alejandro Mera y la supervisión del tutor Nahuel Lautaro Torres Loretto.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx nodemon ./src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongoose": "^8.4.0",
+    "mongoose-paginate-v2": "^1.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
