@@ -1,6 +1,6 @@
-# Primera Preentrega Proyecto Final Curso Backend
+# Segunda Preentrega Proyecto Final Curso Backend
 
-Dicho trabajo fue realizado intentando cumplir con las rúbricas de la primera preentrega del proyecto final de un e-commerce, del curso de backend para la plataforma Coderhouse, en la comisión 53155 a cargo del profesor Luis Alejandro Mera y la supervisión del tutor Nahuel Lautaro Torres Loretto.
+Dicho trabajo fue realizado intentando cumplir con las rúbricas de la segunda preentrega del proyecto final de un e-commerce, del curso de backend para la plataforma Coderhouse, en la comisión 53155 a cargo del profesor Luis Alejandro Mera y la supervisión del tutor Nahuel Lautaro Torres Loretto.
 
 ## Tabla de Contenidos
 
@@ -47,11 +47,15 @@ El proyecto sigue una estructura organizada que separa las diferentes partes de 
   
 - routes/: Este directorio contiene los archivos de las rutas de la aplicación. Cada archivo de ruta define las diferentes rutas y controladores asociados para gestionar las solicitudes HTTP entrantes.
 
-- managers/: En este directorio se encuentran los archivos de los gestores de la lógica de negocio. Cada gestor se encarga de manejar una parte específica de la funcionalidad de la aplicación, como la gestión de productos y carritos.
+- fsManagers/: En este directorio se encuentran los archivos de los gestores de la lógica de negocio utilizando Filesystem. Cada gestor se encarga de manejar una parte específica de la funcionalidad de la aplicación, como la gestión de productos y carritos.
 
-- data/: Aquí se almacenan los archivos JSON utilizados para almacenar los datos de la aplicación. Cada archivo JSON representa una colección de datos, como productos y carritos.
+- fsManagers/data: Aquí se almacenan los archivos JSON utilizados para almacenar los datos de la aplicación. Cada archivo JSON representa una colección de datos, como productos y carritos.
 
-- config.js: Este archivo contiene la configuración de la aplicación, incluyendo la conexión a la base de datos MongoDB y cualquier otra configuración necesaria para el funcionamiento de la aplicación.
+- config/mongoDb.config.js: Este archivo contiene la configuración de la aplicación, incluyendo la conexión a la base de datos MongoDB y cualquier otra configuración necesaria para el funcionamiento de la aplicación.
+
+- Models/: Esta carpeta contiene los archivos con los modelos de esquema de las colecciones de los documentos de Mongoose
+- 
+- mongoDao/: Esta carpeta contiene los archivos del Dao tanto de los productos que se almacenarán en las colecciones como el de los Carritos
 
 - README.md: Este archivo contiene la documentación del proyecto, incluyendo instrucciones de instalación, uso, estructura del proyecto, contribución y licencia.
 
